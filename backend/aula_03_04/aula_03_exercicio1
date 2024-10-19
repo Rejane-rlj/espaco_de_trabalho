@@ -1,0 +1,60 @@
+<?php
+// Se a nota For a partir de 6 , ela passou de série
+//  $notaFinal = 7;
+//  if($notaFinal >= 6) {
+//    echo " Aluno Aprovado !";
+//  } else if($notaFinal < 6) {
+//     echo  " Aluno Reprovado !";
+//  } else {
+//     echo " Nota Inválida !";
+//  }
+
+// //Para a aluna ser aprovada , precisa que a nota final seja a partir de 6 
+// $notaAlunaFinal = 3;
+// if($notaAlunaFinal >= 6) {
+//     echo " Aluna Aprovada !";
+// } else  {
+//     echo " Aluna Reprovada !";
+// }
+
+// // Para a aluna ser aprovada , precisa que a nota final seja a partir de 6 
+// $notaAlunaFinal = 7;
+// if($notaAlunaFinal >= 6) {
+//     echo " Aluna Aprovada !";
+//}
+
+
+
+// Se a nota For a partir de 6 , ela passou de série
+//  $notaFinal = 5.9;
+//  if( $notaFinal >=9 ) {
+//    echo " Aluno Aprovado com Distinção!";
+//  } else if($notaFinal  >=6 && $notaFinal <9 ) {
+//     echo  " Aluno Aprovado !";
+//  } else if ($notaFinal >=9 ){
+//     echo  " Aluno Aprovado !"; 
+//  } else if($notaFinal <=6) {
+//     echo " Aluno Reprovado!";
+//  }
+
+// //Para a aluna ser aprovada , precisa que a nota final seja a partir de 6 
+// $notaAlunaFinal = 3;
+// if($notaAlunaFinal >= 6) {
+//     echo " Aluna Aprovada !";
+// } else  {
+//     echo " Aluna Reprovada !";
+// }
+
+// // Para a aluna ser aprovada , precisa que a nota final seja a partir de 6 
+// $notaAlunaFinal = 7;
+// if($notaAlunaFinal >= 6) {
+//     echo " Aluna Aprovada !";
+
+// Tipos de dados em varáveis
+$nome = " Maria ";
+$turno = " M ";
+$nome = " Andre ";
+$turno = " V ";
+$nome = " Marcos ";
+$turno = " N ";
+?>
