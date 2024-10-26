@@ -5,7 +5,7 @@ class Professor {
    private $nome;
    private $cpf;
    private $disciplina;
-   private $identificação;
+   private $identificacao;
 
    public function getNome () {
     return $this->nome;
@@ -13,8 +13,9 @@ class Professor {
    public function getDisciplina () {
     return $this->disciplina;
    }
+   //parâmetro
    public function setDisciplina ($disciplinaNova) {
-    $this->nome =$disciplinaNova;
+    $this->disciplina = $disciplinaNova;
    }
    public function setCpf ($cpfNovo) {
     $this->cpf = $cpfNovo;
