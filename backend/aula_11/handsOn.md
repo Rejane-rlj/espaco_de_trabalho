@@ -1,0 +1,3 @@
+getNome
+setDisciplina
+setCpf.

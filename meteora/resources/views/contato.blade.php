@@ -1,0 +1,1 @@
+<h1>Amigo não é aquele que dá uma rosa , mas sim aquele qu tira os espinhos.</h1>

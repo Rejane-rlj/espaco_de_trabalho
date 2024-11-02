@@ -51,6 +51,9 @@ $aluno3->setIdade(15);
 
 $aluno1->exibirDados();
 $aluno3->exibirDados();
+
+$aluno3->situacao();
+
 $aluno3->exibirDados();
 
 
