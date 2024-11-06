@@ -1,1 +1,13 @@
-<h1>Amigo não é aquele que dá uma rosa , mas sim aquele qu tira os espinhos.</h1>
+<h1>Aqui irá ficar a página Contato.</h1>
+
+<ul>
+    <li>
+        <a href="/">Principal</a>
+    </li>
+    <li>
+        <a href="/sobre">Sobre</a>
+    </li>
+    <li>
+        <a href="/contato">Contato</a>
+    </li>
+</ul
