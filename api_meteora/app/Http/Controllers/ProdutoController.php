@@ -2,12 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Produto;
 use Illuminate\Http\Request;
 
 class ProdutoController extends Controller
 {
     public function  create() {
-        return view('produtos.create');;
+        return view('produtos.create');
     }
 
     public function store(Request $request) {
@@ -21,8 +22,21 @@ class ProdutoController extends Controller
             'imagem'=>'nullable|image|mimes:jpeg,png,jpg,gif|max:2048'
         ]);
 
-        $imagem = $request->fil('imagem');
+        $imagem = $request->file('imagem');
 
         $caminhoImagem = $imagem ? $imagem->store('imagens/produtos','public') : null;
+
+    Produto::create([
+        'nome'=> $request->nome,
+        'descricao'=> $request->descricao,
+        'tamanho'=> $request->tamanho,
+        'cor'=> $request->cor,
+        'preco'=> $request->preco,
+        'quantidade'=> $request->quantidade,
+        'imagem'=> $request->immagem
+    ]);
+
+    return redirect()->route('produtos.create')->with('success', 'Produto cadastrado com sucesso!');
     }
+
 }
