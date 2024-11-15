@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
 </head>
 <body>
     <div class="container my-5">
@@ -14,7 +16,7 @@
             <div class="alert alert-success">{{session('success')}} </div>
        @endif
 
-       <form action="{{'produtos.store'}}" method="post" enctype="multipart/form-data">
+       <form action="{{route('produtos.store')}}" method="post" enctype="multipart/form-data">
 
          @csrf
          {{-- Campo para o nome do produto --}}
@@ -36,7 +38,7 @@
         </div>
         {{-- Campo para descricao do produto --}}
         <div class="mb-3">
-        <label for="cor" class="form-label">Nome</label>
+        <label for="cor" class="form-label">Cor</label>
         <input type="text" id="cor" class="form-control" name="cor" required>
     </div>
      {{-- Campo para o preço do produto --}}
